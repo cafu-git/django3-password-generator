@@ -1,0 +1,10 @@
+{% extends 'generator/base.html' %}
+{% block title %} Password Generator {% endblock %}
+{% block content %}
+    <h1>About Password generator</h1>
+    <h3>Author: C4fu</h3>
+    <h3>Django Tutorial</h3>
+    <h3>Current time: {{ time }}</h3>
+    <br>
+    <a href="{% url 'home' %}">Home</a>
+{% endblock %}
